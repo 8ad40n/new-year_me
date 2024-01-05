@@ -8,7 +8,7 @@
 
 /* header */
 .banner {
-  background-image: url("../images/banner/banner1.png");
+  background-image: url("../images/banner/banner2.png");
   background-repeat: no-repeat;
   background-size: cover;
   /* width: 1600px;
@@ -17,7 +17,7 @@
 }
 
 .heading {
-  margin: 216px 180px 24px 845px;
+  margin: 130px 180px 24px 700px;
   color: #151414;
   text-align: right;
   font-size: 65px;
@@ -30,7 +30,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  margin: 0px 180px 32px 1000px;
+  margin: 0px 180px 32px 850px;
 }
 
 .btn {
@@ -70,14 +70,77 @@
   margin-bottom: 15px;
 }
 .previousLi {
-  color:#444343;
+  color: #444343;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
 }
-.list{
-  margin: 300px auto auto 40px;
+.list {
+  margin: 300px 300px auto 40px;
 }
-.list ul li{
+.list ul li {
   margin-left: 45px;
+}
+
+.myPlan {
+  color: var(--Dark-01, #151414);
+  font-family: Work Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.planTitle {
+  color: var(--Dark-01, #151414);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.planPara {
+  color: var(--Dark-03, #737272);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.planImg {
+  width: 92.958px;
+  height: 92.958px;
+  flex-shrink: 0;
+  padding-left: 25%;
+}
+.plan-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.myPlan {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.plan {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 130px;
+}
+.watch {
+  width: 1140px;
+  height: 300px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-image: url("../images/watch.png");
+  background-image: url("../images/watch.png"),linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  background-repeat: no-repeat;
+  
+}
+.positive {
+  margin-bottom: 100px;
+  margin-left: 260px;
+  margin-right: auto;
 }
