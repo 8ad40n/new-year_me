@@ -47,6 +47,7 @@
   font-weight: 600;
   justify-content: center;
   align-items: center;
+  border: none;
 }
 
 /* main */
@@ -130,17 +131,114 @@
   margin-bottom: 130px;
 }
 .watch {
-  width: 1140px;
-  height: 300px;
+  width: 1050px;
+  /* height: 300px; */
   flex-shrink: 0;
   border-radius: 8px;
-  background-image: url("../images/watch.png");
-  background-image: url("../images/watch.png"),linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+
+  border-radius: 8px;
+  /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%); */
+  background-image: linear-gradient(#f15b22, rgba(241, 91, 34, 0)),
+    url("../images/watch.png");
+  /* background-image: url("../images/watch.png"); */
   background-repeat: no-repeat;
-  
+  padding-left: 64px;
+  padding-top: 59px;
+  padding-bottom: 60px;
 }
 .positive {
   margin-bottom: 100px;
   margin-left: 260px;
   margin-right: auto;
+}
+.watchHeading {
+  color: #fff;
+
+  font-family: Work Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.btnCall button {
+  color: #f15b22;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+
+}
+/* footer */
+.contact {
+  height: 500px;
+  flex-shrink: 0;
+  background: var(--Dark-01, #151414);
+}
+.contact h1 {
+  color: #f8f8f8;
+
+  font-family: Work Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.contact p {
+  color: #fff;
+
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 20px;
+}
+.future {
+  width: 485px;
+}
+.subscribe h3 {
+  color: #fff;
+
+  font-family: Work Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 130px auto auto 230px;
+  margin-bottom: 20px;
+}
+.subscribe input {
+  width: 325px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 230px;
+  padding-right: 230px;
+}
+.subscribe button{
+  color: #f15b22;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
 }
